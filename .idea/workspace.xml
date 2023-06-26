@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9001abad-395d-43f3-8892-f8c68388a98e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MilitaryPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MyPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/PassengerPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/experimentalPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/models/ClassificationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/models/ExperimentalTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/models/MilitaryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aircompany/AirportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +27,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1LessonMaven" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2RVyLGnAJfS2zNbP11jOQuzFRy7" />
@@ -27,9 +44,98 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/aircompany" />
+      <recent name="$PROJECT_DIR$/src/main/java/aircompany/models" />
+      <recent name="$PROJECT_DIR$/src/test/java/aircompany" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AirportTest.testGetTransportMilitaryPlanes">
+    <configuration name="AirportTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSelfStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aircompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aircompany" />
+      <option name="MAIN_CLASS_NAME" value="aircompany.AirportTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirportTest.testExperimentalPlanesHasClassificationLevelHigherThanUnclassified" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSelfStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aircompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aircompany" />
+      <option name="MAIN_CLASS_NAME" value="aircompany.AirportTest" />
+      <option name="METHOD_NAME" value="testExperimentalPlanesHasClassificationLevelHigherThanUnclassified" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirportTest.testGetTransportMilitaryPlanes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSelfStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aircompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aircompany" />
+      <option name="MAIN_CLASS_NAME" value="aircompany.AirportTest" />
+      <option name="METHOD_NAME" value="testGetTransportMilitaryPlanes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirportTest.testHasAtLeastOneBomberInMilitaryPlanes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSelfStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aircompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aircompany" />
+      <option name="MAIN_CLASS_NAME" value="aircompany.AirportTest" />
+      <option name="METHOD_NAME" value="testHasAtLeastOneBomberInMilitaryPlanes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AirportTest.testGetTransportMilitaryPlanes" />
+        <item itemvalue="TestNG.AirportTest" />
+        <item itemvalue="TestNG.AirportTest.testExperimentalPlanesHasClassificationLevelHigherThanUnclassified" />
+        <item itemvalue="TestNG.AirportTest.testHasAtLeastOneBomberInMilitaryPlanes" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
