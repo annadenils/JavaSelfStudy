@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9001abad-395d-43f3-8892-f8c68388a98e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MilitaryPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MyPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/PassengerPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/experimentalPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/models/ClassificationLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/models/ExperimentalTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aircompany/models/MilitaryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/aircompany/AirportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9001abad-395d-43f3-8892-f8c68388a98e" name="Changes" comment="first changes for the aircompany">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MilitaryPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MilitaryPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MyPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/MyPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Planes/PassengerPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/PassengerPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Planes/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Planes/experimentalPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Planes/experimentalPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aircompany/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aircompany/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,20 @@
       <recent name="$PROJECT_DIR$/src/test/java/aircompany" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AirportTest.testGetTransportMilitaryPlanes">
+  <component name="RunManager" selected="TestNG.AirportTest">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aircompany.Runner" />
+      <module name="JavaSelfStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aircompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AirportTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSelfStudy" />
       <extension name="coverage">
@@ -129,8 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AirportTest.testGetTransportMilitaryPlanes" />
         <item itemvalue="TestNG.AirportTest" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="TestNG.AirportTest.testGetTransportMilitaryPlanes" />
         <item itemvalue="TestNG.AirportTest.testExperimentalPlanesHasClassificationLevelHigherThanUnclassified" />
         <item itemvalue="TestNG.AirportTest.testHasAtLeastOneBomberInMilitaryPlanes" />
       </list>
@@ -145,6 +152,21 @@
       <option name="presentableId" value="Default" />
       <updated>1687349485848</updated>
     </task>
+    <task id="LOCAL-00001" summary="first changes for the aircompany">
+      <created>1687792080673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687792080673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first changes for the aircompany">
+      <created>1687792214936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687792214936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first changes for the aircompany" />
+    <option name="LAST_COMMIT_MESSAGE" value="first changes for the aircompany" />
   </component>
 </project>

@@ -3,9 +3,9 @@ package aircompany.Planes;
 import aircompany.models.ClassificationLevel;
 import aircompany.models.ExperimentalTypes;
 
-public class experimentalPlane extends Plane{
+public class experimentalPlane extends Plane {
 
-    private ExperimentalTypes type;
+    private final ExperimentalTypes type;
     private ClassificationLevel classificationLevel;
 
     public experimentalPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity,
@@ -15,17 +15,17 @@ public class experimentalPlane extends Plane{
         this.classificationLevel = classificationLevel;
     }
 
-    public ClassificationLevel getClassificationLevel(){
+    public ClassificationLevel getClassificationLevel() {
         return classificationLevel;
     }
 
-    public void setClassificationLevel(ClassificationLevel classificationLevel){
+    public void setClassificationLevel(ClassificationLevel classificationLevel) {
         this.classificationLevel = classificationLevel;
     }
 
     @Override
-    public boolean equals(Object o) {
-        return super.equals(o);
+    public boolean equals(Object objectPlane) {
+        return super.equals(objectPlane);
     }
 
     @Override
